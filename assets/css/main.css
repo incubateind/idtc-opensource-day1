@@ -73,7 +73,7 @@ a:not([href]):not([tabindex]) {
 }
 
 .section-header p {
-  text: center;
+  text-align: center;
   font-weight: 400;
   line-height: 26px;
 }
@@ -130,7 +130,10 @@ a:not([href]):not([tabindex]) {
   position: relative;
   z-index: 1;
   text-transform: uppercase;
+  /* display: table;
+  margin: 0 auto; */
 }
+
 
 .btn-common:hover {
   color: #fff;
@@ -327,13 +330,14 @@ hr {
   height: 100%;
   display: table;
   padding-left: 140px;
-  /* SOMETHING CHANGED */
+  padding-right:35px;
   text-align: right;
 }
 
 .text-wrapper>div {
   vertical-align: middle;
   display: table-cell;
+  text-align:left;
 }
 
 .feature-thumb {
@@ -387,8 +391,7 @@ hr {
   margin: 15px 0;
   padding: 30px;
   border-radius: 4px;
-  /* SOMETHING CHANGED */
-  text-align: center;
+  text-align: left;
   box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease-in-out 0s;
   -moz-transition: all 0.3s ease-in-out 0s;
@@ -691,6 +694,12 @@ hr {
   line-height: 48px;
   font-weight: 700;
   margin-bottom: 30px;
+  text-align:center;
+}
+
+#hero-area .contents .btn-common{
+  display: table;
+  margin: 0 auto;
 }
 
 /* Team Item */
@@ -1147,8 +1156,7 @@ hr {
   font-size: 30px;
   color: #222222;
   position: relative;
-  /* SOMETHING CHANGED */
-  text-align: left;
+  text-align: center;
   font-weight: 700;
   padding: 30px 0;
   border-bottom: 1px solid #f1f1f1;
@@ -1166,8 +1174,7 @@ hr {
 }
 
 #pricing .table .description {
-  /* SOMETHING CHANGED */
-  text-align: right;
+  text-align: center;
   padding: 0px 50px;
   margin-bottom: 20px;
 }
