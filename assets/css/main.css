@@ -116,6 +116,7 @@ a:not([href]):not([tabindex]) {
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
   display: inline-block;
+
 }
 
 .btn:focus,
@@ -130,6 +131,7 @@ a:not([href]):not([tabindex]) {
   position: relative;
   z-index: 1;
   text-transform: uppercase;
+  
 }
 
 .btn-common:hover {
@@ -172,6 +174,10 @@ a:not([href]):not([tabindex]) {
   text-transform: capitalize;
 }
 
+#aboutus{
+  
+  margin-right: 422px;
+}
 button:focus {
   outline: none !important;
 }
@@ -388,7 +394,7 @@ hr {
   padding: 30px;
   border-radius: 4px;
   /* SOMETHING CHANGED */
-  text-align: center;
+  text-align: left;
   box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease-in-out 0s;
   -moz-transition: all 0.3s ease-in-out 0s;
@@ -1147,8 +1153,8 @@ hr {
   font-size: 30px;
   color: #222222;
   position: relative;
-  /* SOMETHING CHANGED */
-  text-align: left;
+  text-align: center;
+  
   font-weight: 700;
   padding: 30px 0;
   border-bottom: 1px solid #f1f1f1;
@@ -1177,6 +1183,7 @@ hr {
   font-weight: 400;
   color: #abacae;
   padding-bottom: 15px;
+  text-align: center;
 }
 
 #pricing .table:hover {
@@ -1195,6 +1202,7 @@ hr {
 
 #pricing #active-tb .price-value {
   color: #3d60f4;
+  text-align: center;
 }
 
 #pricing #active-tb .btn-common {
