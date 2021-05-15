@@ -326,9 +326,8 @@ hr {
 .text-wrapper {
   height: 100%;
   display: table;
-  padding-left: 140px;
-  /* SOMETHING CHANGED */
-  text-align: right;
+  padding-left: 70px;
+  /* alignment removed */
 }
 
 .text-wrapper > div {
