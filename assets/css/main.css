@@ -8,7 +8,7 @@ body {
   background: #fff;
   font-size: 14px;
   font-weight: 400;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -27,7 +27,7 @@ h4 {
   font-size: 38px;
   color: #222222;
   font-weight: 700;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: "Titillium Web", sans-serif;
 }
 
 a {
@@ -47,7 +47,7 @@ a a:focus {
 
 p {
   font-weight: 400;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin: 0px;
   font-size: 14px;
 }
@@ -136,9 +136,9 @@ a:not([href]):not([tabindex]) {
   color: #fff;
   background-color: #222;
   box-shadow: 0 6px 22px rgba(0, 0, 0, 0.1);
-  transition: all .2s ease-in-out;
-  -moz-transition: all .2s ease-in-out;
-  -webkit-transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
 }
 
 .btn-border {
@@ -207,19 +207,19 @@ button:focus {
 }
 
 .social-icon .twitter:hover {
-  background: #4A9CEC;
+  background: #4a9cec;
 }
 
 .social-icon .instagram:hover {
-  background: #D6274D;
+  background: #d6274d;
 }
 
 .social-icon .linkedin:hover {
-  background: #1260A2;
+  background: #1260a2;
 }
 
 .social-icon .google:hover {
-  background: #CE332A;
+  background: #ce332a;
 }
 
 /* ScrollToTop */
@@ -326,12 +326,11 @@ hr {
 .text-wrapper {
   height: 100%;
   display: table;
-  padding-left: 140px;
-  /* SOMETHING CHANGED */
-  text-align: right;
+  padding-left: 70px;
+  /* alignment removed */
 }
 
-.text-wrapper>div {
+.text-wrapper > div {
   vertical-align: middle;
   display: table-cell;
 }
@@ -351,9 +350,9 @@ hr {
   height: 80px;
   text-align: center;
   border-radius: 50%;
-  transition: all .6s ease;
-  -moz-transition: all .6s ease;
-  -webkit-transition: all .6s ease;
+  transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  -webkit-transition: all 0.6s ease;
 }
 
 .feature-item .icon i {
@@ -387,8 +386,7 @@ hr {
   margin: 15px 0;
   padding: 30px;
   border-radius: 4px;
-  /* SOMETHING CHANGED */
-  text-align: center;
+  /* Alignment removed */
   box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease-in-out 0s;
   -moz-transition: all 0.3s ease-in-out 0s;
@@ -531,7 +529,7 @@ hr {
 }
 
 .navbar-expand-md .navbar-nav .nav-link {
-  font-family: 'Titillium Web', sans-serif;
+  font-family: "Titillium Web", sans-serif;
   color: #585b60;
   font-weight: 600;
   padding: 8px 10px;
@@ -545,16 +543,16 @@ hr {
 }
 
 .navbar-expand-md .navbar-nav li a:hover,
-.navbar-expand-md .navbar-nav li .active>a,
+.navbar-expand-md .navbar-nav li .active > a,
 .navbar-expand-md .navbar-nav li a:focus {
   color: #3d60f4;
   outline: none;
 }
 
-.navbar-expand-md .navbar-nav .active>.nav-link,
+.navbar-expand-md .navbar-nav .active > .nav-link,
 .navbar-expand-md .navbar-nav .nav-link.active,
 .navbar-expand-md .navbar-nav .nav-link.open,
-.navbar-expand-md .navbar-nav .open>.nav-link {
+.navbar-expand-md .navbar-nav .open > .nav-link {
   color: #3d60f4 !important;
 }
 
@@ -776,7 +774,7 @@ hr {
 }
 
 .team-item .overlay-social-icon .social-icons li a:hover .lni-facebook-filled {
-  background: #3B5998;
+  background: #3b5998;
 }
 
 .team-item .overlay-social-icon .social-icons li a:hover .lni-twitter-filled {
@@ -833,7 +831,7 @@ hr {
   display: table;
 }
 
-#counter .counter-text>div {
+#counter .counter-text > div {
   vertical-align: middle;
   display: table-cell;
 }
@@ -881,7 +879,7 @@ hr {
 
 #counter .counter-box h3:before {
   position: absolute;
-  content: '';
+  content: "";
   height: 1px;
   width: 45px;
   left: 50%;
@@ -948,9 +946,9 @@ hr {
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
   filter: gray;
-  transition: all .6s ease;
-  -moz-transition: all .6s ease;
-  -webkit-transition: all .6s ease;
+  transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  -webkit-transition: all 0.6s ease;
 }
 
 .client-item-wrapper:hover img {
@@ -966,7 +964,7 @@ hr {
   padding-right: 120px;
 }
 
-#latest .text-content>div {
+#latest .text-content > div {
   vertical-align: middle;
   display: table-cell;
 }
@@ -1021,9 +1019,9 @@ hr {
 .shot-item img {
   width: 100%;
   height: 100%;
-  transition: all .6s ease;
-  -moz-transition: all .6s ease;
-  -webkit-transition: all .6s ease;
+  transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  -webkit-transition: all 0.6s ease;
 }
 
 .shot-item .single-content {
@@ -1033,9 +1031,9 @@ hr {
   opacity: 0;
   position: absolute;
   top: 0;
-  transition: all .6s ease;
-  -moz-transition: all .6s ease;
-  -webkit-transition: all .6s ease;
+  transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  -webkit-transition: all 0.6s ease;
   width: 100%;
 }
 
@@ -1076,7 +1074,7 @@ hr {
   text-transform: uppercase;
   font-size: 20px;
   font-weight: 600;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: "Titillium Web", sans-serif;
 }
 
 .shot-item:hover img {
@@ -1120,11 +1118,11 @@ hr {
   padding-bottom: 30px;
   border-radius: 4px;
   box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.1);
-  -webkit-transition: all .3s linear;
-  -moz-transition: all .3s linear;
-  -ms-transition: all .3s linear;
-  -o-transition: all .3s linear;
-  transition: all .3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 
 #pricing .table .icon {
@@ -1143,12 +1141,12 @@ hr {
 }
 
 #pricing .table .pricing-header .price-value {
-  font-family: 'Titillium Web', sans-serif;
+  font-family: "Titillium Web", sans-serif;
   font-size: 30px;
   color: #222222;
   position: relative;
   /* SOMETHING CHANGED */
-  text-align: left;
+  text-align: center; /* center aligned */
   font-weight: 700;
   padding: 30px 0;
   border-bottom: 1px solid #f1f1f1;
@@ -1167,7 +1165,7 @@ hr {
 
 #pricing .table .description {
   /* SOMETHING CHANGED */
-  text-align: right;
+  text-align: center; /*text alinged as center*/
   padding: 0px 50px;
   margin-bottom: 20px;
 }
@@ -1627,19 +1625,19 @@ hr {
 }
 
 .testimonial-item .icon-social .twitter:hover {
-  background: #4A9CEC;
+  background: #4a9cec;
 }
 
 .testimonial-item .icon-social .instagram:hover {
-  background: #D6274D;
+  background: #d6274d;
 }
 
 .testimonial-item .icon-social .linkedin:hover {
-  background: #1260A2;
+  background: #1260a2;
 }
 
 .testimonial-item .icon-social .google:hover {
-  background: #CE332A;
+  background: #ce332a;
 }
 
 .owl-pagination {
@@ -1717,7 +1715,7 @@ hr {
   -moz-transition: all 0.3s;
   transition: all 0.3s;
   padding: 8px 20px;
-  border: 1px solid #F7F7F7;
+  border: 1px solid #f7f7f7;
 }
 
 .form-control:focus {
@@ -1920,7 +1918,6 @@ textarea {
   background: #34363a;
   padding: 15px;
 }
-
 
 .copyright .footer-logo img {
   width: 80%;
