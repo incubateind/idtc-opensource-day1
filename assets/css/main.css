@@ -1940,3 +1940,15 @@ textarea {
 .copyright p a:hover {
   color: #3d60f4;
 }
+
+#addPadding{
+   padding-right: 50px;
+}
+
+.icon, .services-content{
+  text-align: left;
+}
+
+.price-value, li{
+  text-align: center!important;
+}
