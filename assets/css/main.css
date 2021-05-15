@@ -1167,7 +1167,7 @@ hr {
 
 #pricing .table .description {
   /* SOMETHING CHANGED */
-  text-align: right;
+  text-align: center; /*text alinged as center*/
   padding: 0px 50px;
   margin-bottom: 20px;
 }
