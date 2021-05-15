@@ -323,12 +323,17 @@ hr {
   background: #3d60f4;
 }
 
+.head-title{
+  text-align: center;
+}
+
+
 .text-wrapper {
   height: 100%;
   display: table;
   padding-left: 140px;
   /* SOMETHING CHANGED */
-  text-align: right;
+  text-align: left;
 }
 
 .text-wrapper>div {
