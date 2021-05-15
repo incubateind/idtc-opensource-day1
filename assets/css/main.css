@@ -1148,7 +1148,7 @@ hr {
   color: #222222;
   position: relative;
   /* SOMETHING CHANGED */
-  text-align: left;
+  text-align: center;
   font-weight: 700;
   padding: 30px 0;
   border-bottom: 1px solid #f1f1f1;
@@ -1158,16 +1158,17 @@ hr {
   font-size: 18px;
   font-weight: 600;
   top: -18px;
+
 }
 
 #pricing .table .pricing-header .price-value span {
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 200;
 }
 
 #pricing .table .description {
   /* SOMETHING CHANGED */
-  text-align: right;
+  text-align: center;
   padding: 0px 50px;
   margin-bottom: 20px;
 }
