@@ -79,6 +79,7 @@ a:not([href]):not([tabindex]) {
 }
 
 .section-title {
+
   font-size: 30px;
   color: #222222;
   display: inline-block;
@@ -114,8 +115,8 @@ a:not([href]):not([tabindex]) {
   -webkit-transition: all 0.2s linear;
   -moz-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
-  transition: all 0.2s linear;
-  display: inline-block;
+   transition: all 0.2s linear;
+   display: inline-block;  
 }
 
 .btn:focus,
@@ -328,7 +329,7 @@ hr {
   display: table;
   padding-left: 140px;
   /* SOMETHING CHANGED */
-  text-align: right;
+  text-align: left;
 }
 
 .text-wrapper>div {
@@ -388,7 +389,7 @@ hr {
   padding: 30px;
   border-radius: 4px;
   /* SOMETHING CHANGED */
-  text-align: center;
+  text-align: left;
   box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease-in-out 0s;
   -moz-transition: all 0.3s ease-in-out 0s;
@@ -398,6 +399,7 @@ hr {
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
+  
 }
 
 .services-item .icon i {
@@ -406,6 +408,7 @@ hr {
 }
 
 .services-item .services-content h3 {
+  position: relative;
   font-weight: 600;
   text-transform: uppercase;
   margin-bottom: 10px;
@@ -417,7 +420,7 @@ hr {
 }
 
 .services-item .services-content h3 a:hover {
-  color: #3d60f4;
+  color: #3d60f4; 
 }
 
 .services-item:hover {
@@ -690,6 +693,7 @@ hr {
   font-size: 30px;
   line-height: 48px;
   font-weight: 700;
+  text-align: center;
   margin-bottom: 30px;
 }
 
@@ -713,6 +717,11 @@ hr {
   cursor: pointer;
   overflow: hidden;
   border-radius: 0px;
+}
+
+#hero-area .contents .btn-common{
+  display: table;
+  margin: 0 auto;
 }
 
 .team-item .team-overlay {
@@ -1148,7 +1157,7 @@ hr {
   color: #222222;
   position: relative;
   /* SOMETHING CHANGED */
-  text-align: left;
+  text-align: center;
   font-weight: 700;
   padding: 30px 0;
   border-bottom: 1px solid #f1f1f1;
@@ -1167,7 +1176,7 @@ hr {
 
 #pricing .table .description {
   /* SOMETHING CHANGED */
-  text-align: right;
+  text-align: center;
   padding: 0px 50px;
   margin-bottom: 20px;
 }
