@@ -7,16 +7,14 @@ html {
 body {
   background: #fff;
   font-size: 14px;
-  font-weight: 400;
-  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-family: Open Sans, sans-serif;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   -webkit-font-smoothing: subpixel-antialiased;
   color: #abacae;
   line-height: 25px;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
   overflow-x: hidden;
 }
 
@@ -46,8 +44,8 @@ a a:focus {
 }
 
 p {
-  font-weight: 400;
-  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-family: Open Sans, sans-serif;
   margin: 0px;
   font-size: 14px;
 }
@@ -73,8 +71,8 @@ a:not([href]):not([tabindex]) {
 }
 
 .section-header p {
-  text: center;
-  font-weight: 400;
+  text-align: center;
+  font-weight: 700;
   line-height: 26px;
 }
 
@@ -327,8 +325,6 @@ hr {
   height: 100%;
   display: table;
   padding-left: 140px;
-  /* SOMETHING CHANGED */
-  text-align: right;
 }
 
 .text-wrapper>div {
@@ -387,8 +383,6 @@ hr {
   margin: 15px 0;
   padding: 30px;
   border-radius: 4px;
-  /* SOMETHING CHANGED */
-  text-align: center;
   box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease-in-out 0s;
   -moz-transition: all 0.3s ease-in-out 0s;
@@ -1147,8 +1141,6 @@ hr {
   font-size: 30px;
   color: #222222;
   position: relative;
-  /* SOMETHING CHANGED */
-  text-align: left;
   font-weight: 700;
   padding: 30px 0;
   border-bottom: 1px solid #f1f1f1;
@@ -1162,19 +1154,19 @@ hr {
 
 #pricing .table .pricing-header .price-value span {
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 #pricing .table .description {
   /* SOMETHING CHANGED */
-  text-align: right;
+  text-align: center;
   padding: 0px 50px;
   margin-bottom: 20px;
 }
 
 #pricing .table .description li {
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 700;
   color: #abacae;
   padding-bottom: 15px;
 }
@@ -1250,6 +1242,7 @@ hr {
 }
 
 #blog .blog-item-text h3 a {
+  font-weight: 700;
   color: #333;
 }
 
@@ -1713,6 +1706,7 @@ hr {
   margin-bottom: 20px;
   font-size: 14px;
   border-radius: 4px;
+  font-weight: 700;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
